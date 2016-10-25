@@ -2,7 +2,8 @@
   
 Reset home folder ACLs and Permissions on Mac OS
 
-This is a simple automator application that does the following:
+This is a simple bash script that does the following:
+(might need to run script with Sudo)
 
 Simple Description:
 
@@ -10,9 +11,9 @@ Simple Description:
 
 Exasperated Description:
 
-1. Asks for home folder, must contain Desktop, Documents, Downloads, Movies, Music, Pictures and Public (the old Sites folder is not handled in this script, it was causing errors and it hasn't been used since Mac OS 10.7).
+1. Asks for home folder.
 
-2. Extracts AccountName from the UserFolder
+2. Asks for account name (same as home folder name)
 
 3. Shell script removes all ACLs on UserFolder
 
